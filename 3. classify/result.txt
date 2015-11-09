@@ -1,0 +1,26 @@
+﻿随机抽样，每个分类500分样本，以下是测试结果。
+
+1. Multinomial Naive Bayes Classifier
+ 准确率:     0.889
+ 召回率:     0.883
+ F1-score:   0.884
+
+2. k-nearest neighbors
+ 准确率:     0.761
+ 召回率:     0.750
+ F1-score:   0.749
+
+3. Support Vector Machine
+ 准确率:     0.875
+ 召回率:     0.871
+ F1-score:   0.872
+
+4. Random Forest
+ 准确率:     0.833
+ 召回率:     0.825
+ F1-score:   0.823
+
+5. Logistic Regression
+ 准确率:     0.870
+ 召回率:     0.867
+ F1-score:   0.868

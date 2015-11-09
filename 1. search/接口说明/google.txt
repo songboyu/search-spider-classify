@@ -1,0 +1,25 @@
+﻿谷歌搜索引擎搜索接口： 
+HTTP: 	GET
+URL :	http://www.google.com.hk/search
+
+参数:
+	q--查询的关键词(Query)，百度对应的参数为wd    
+	hl--Google搜索的界面语言(Interface Language)    
+		hl=zh-CN简体中文语言界面，我们用的Google中文就是这个参数。    
+		hl=zh-TW繁体中文语言界面，港台地区常使用。   
+		hl=en 英文语言界面。   
+
+	start--显示结果的页数,百度对应的参数为pn   
+
+	lr--搜索内容的语言限定(Language Restrict),限定只搜索某种语言的网页。如果lr参数为空，则为搜索所有网页。    
+		常用的有：    
+		lr=lang_zh-CN只搜索简体中文网页。   
+		lr=lang_zh-TW只搜索繁体中文网页。   
+		lr=lang_zh-CN|lang_zh-TW搜索所有中文网页。   
+		lr=lang_en只搜索英文网页。   
+	ie--查询输入文字的编码(Input Encoding),Google缺省设置ie=UTF-8, 
+	oe--搜索返回页面的编码(Output Encoding),Google缺省设置oe=UTF-8   
+
+	num--搜索结果显示条数(Number),取值范围在10--100条之间，缺省设置num=10,百度对应的参数为rn    
+	newwindow--是否开启新窗口以显示查询结果。 缺省设置newwindow=1，在新窗口打开网页    
+	safe--安全搜索选项(SafeSearch),设置该参数可以过滤成人内容， 缺省设置safe为空，即不过滤成人内容，设置为safe=vss，即过滤成人内容。

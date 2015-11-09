@@ -1,0 +1,17 @@
+﻿百度搜索引擎搜索接口： 
+HTTP: 	GET
+URL :	http://www.baidu.com/s
+
+参数:
+	wd--查询的关键词(Keyword)    
+	pn--显示结果的页数(Page Number)    
+	cl--搜索类型(Class)，cl=3为网页搜索 cl=2为图片搜索或新闻搜索   
+	lm--时间限制(limit)，1<=lm<=360
+	rn--搜索结果显示条数(Record Number),取值范围在10--50条之间，缺省设置rn=10   
+	ie--查询输入文字的编码(Input Encoding),缺省设置ie=gb2312,即为简体中文。   
+	tn--提交搜索请求的来源站点。   
+		常用 tn=baidulocal 表示百度站内搜索，返回的结果很干净。  
+
+	si--在限定的域名中搜索,比如想在本站内搜索可使用参数si=aofei.net.cn,要使这个参数有效必须结合ct参数一起使用。   
+	ct--此参数的值一般是一串数字，搜索请求的验证码。   
+	bs--上一次搜索的关键词(Before Search)，与相关搜索有关。
